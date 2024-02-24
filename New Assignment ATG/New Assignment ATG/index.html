@@ -126,17 +126,17 @@
             
 
         </div>
-        <div class="cate">
+        <!-- <div class="cate">
             <img src="images/outline-location_on-24px 2.png" alt="">
             <p>Noida, India</p>
             <img class="img4" src="images/baseline-edit-24px.png" alt="">
         </div>
         <div class="loc">
             <img class="img5" src="images/Group 42.svg" alt="">
-        </div>
+        </div> -->
 
     </section>
-    <main>
+    <div>
         <section class="user_container">
             <div id="modalContentLogin" class="modal-content">
                 <div class="modal-header">
@@ -199,8 +199,8 @@
                 </div>
             </div>
         </section>
-    </main>
-    <main>
+    </div>
+    <div>
         <section class="user_container">
             <div id="modalContent" class="modal-content">
                 <div class="modal-header">
@@ -253,7 +253,7 @@
                 </div>
             </div>
         </section>
-    </main>
+    </div>
     <script> 
         window.onload = function() {
     var modalContent = document.getElementById("modalContent");
@@ -267,8 +267,8 @@ document.addEventListener("DOMContentLoaded", function() {
         modalContent.style.display = "none";
     };
 
-    var closeLogin = document.getElementById("closeLogin"); // Corrected variable name
-    closeLogin.onclick = function() { // Changed to closeLogin.onclick
+    var closeLogin = document.getElementById("closeLogin"); 
+    closeLogin.onclick = function() { 
         var modalContentLogin = document.getElementById("modalContentLogin");
         modalContentLogin.style.display = "none";
     };
